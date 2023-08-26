@@ -7,7 +7,6 @@ from mergePDF import MergePDF
 
 window = sg.Window('File Utils', layout)
 
-
 while True:
     event, values = window.read()
 
