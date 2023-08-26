@@ -1,0 +1,2 @@
+FILES_KEY = '-FILES-'
+MERGE_KEY = '-MERGE-'
