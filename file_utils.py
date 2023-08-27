@@ -14,11 +14,12 @@ while True:
         break
 
     if event == MERGE_KEY:
-        files = values[FILES_KEY] .split(";")
+        files = values[FILES_KEY].split(";")
 
         try:
             mergePDF = MergePDF()
             mergePDF.merge_files(files)
+            
             sg.Popup("Done", keep_on_top=True)
             break
         except Exception as e:

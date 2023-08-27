@@ -5,7 +5,7 @@ from pypdf import PdfWriter
 
 
 class MergePDF(ABC):
-    def __init__(self, ):
+    def __init__(self):
         """
         Initializes a new MergePDF instance.
         """
